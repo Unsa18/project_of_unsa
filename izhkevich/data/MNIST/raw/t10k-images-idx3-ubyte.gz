@@ -1,0 +1,153 @@
+<!--A Design by W3layouts Author: W3layout Author URL: http://w3layouts.com License: Creative Commons Attribution 3.0 Unported License URL: http://creativecommons.org/licenses/by/3.0/-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="网络准入认证系统" />
+    <title>北京航空航天大学</title>
+    <link type="images/x-icon" rel="shortcut icon" href="/static/images/basic/favicon.ico">
+    <link rel="stylesheet" href="/static/bower/test/ionicons/4.4.5/ionicons.min.css">
+    <!--[if lt IE9]>
+    <script src="/static/bower/test/html5shiv/r29/html5shiv.min.js"></script>
+    <script src="/static/bower/test/respond/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet" href="/static/css/test/iePatch.css">
+    <![endif]-->
+    <link rel="stylesheet" href="/static/css/test/main.css">
+    <script src="/static/js/device.min.js"></script>
+    <script>
+        if (device.mobile()) {
+            locationURI("/srun_portal_phone")
+        }
+        function locationURI(uri) { return location.href = uri + location.search; }
+    </script>
+</head>
+
+<header>
+    <div class="header-content">
+        <img class="logo" id="logo" src="/static/images/test/logo.png" alt="logo">
+        <div class="language">
+            <div class="btn-chose">
+                <span>语言</span>
+                <i class="icon ion-md-arrow-dropdown"></i>
+            </div>
+            <ul class="list">
+                <li>简体中文</li>
+                <li>English</li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="section-content">
+        
+        <div class="module login-container">
+            
+            
+            
+            <h1 class="title">网络准入认证系统</h1>
+            
+            
+            <div class="login-form">
+                
+                <div class="login-way account">
+                    <form id="login-form" action="#">
+                        <input type="hidden" name="ac_id" id="ac_id" value="1">
+                        <input type="hidden" name="user_ip" id="user_ip" value="172.19.59.188">
+                        <input type="hidden" name="nas_ip" id="nas_ip" value="">
+                        <input type="hidden" name="user_mac" id="user_mac" value="">
+                        <input type="hidden" name="url" id="url" value="">
+                        
+                        <div class="row input">
+                            <label for="username" class="icon ion-md-person"></label>
+                            <input id="username" tabIndex="1" type="text" placeholder="请输入用户名">
+                            
+                            
+                        </div>
+                        
+                        <div class="row input">
+                            <label for="password" class="icon ion-md-lock"></label>
+                            <input id="password" tabIndex="1" type="password" placeholder="请输入密码">
+                            <i class="showPass icon ion-md-eye-off"></i>
+                        </div>
+                        
+                        <div class="row func">
+                            <div class="remember">
+                                <label for="remember">
+                                    <input type="checkbox" id="remember">&nbsp;记住账号
+                                </label>
+                            </div>
+                            <div class="forget">
+                                <a href="https://zfw.buaa.edu.cn/forget"><span>忘记密码?</span></a>
+                            </div>
+                        </div>
+                        
+                        <div class="row btn-group">
+                            <button class="login" id="login" type="button" tabIndex="1">登录</button>
+                            
+								<a href="https://zfw.buaa.edu.cn"><button class="self"  type="button">自助服务</button></a>
+                            
+                        </div>
+                    </form>
+                </div>
+
+                
+                <div class="login-way weChat">
+                    <div class="step-1">
+                        <img class="qrCode" src="/static/images/test/qrcode1.jpg" alt="step-1">
+                        <p class="intro">第一步:扫这里 <br> 进入迅连小程序上网</p>
+                    </div>
+                    <div class="step-2" id="out-qrcode1"></div>
+                </div>
+            </div>
+            
+            <div class="row loginType">
+                
+                
+                
+                
+                
+                <div class="item">
+                    <i class="icon ion-md-person-add"></i>
+                    <a href="https://zfw.buaa.edu.cn/active" target="_blank">用户激活</a>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="module notice-container">
+            
+            <h1 class="title">通知</h1>
+            <h2 class="notice-title" id="notice-title"></h2>
+            <div class="notice-content">
+                <p id="notice-content"></p>
+            </div>
+        </div>
+        
+        <img class="tipsImg" src="/static/images/test/tips.gif" alt="">
+    </div>
+</section>
+
+<footer>
+    <div class="copyright">
+        <p>© Copyright 北京航空航天大学 2019</p>
+    </div>
+</footer>
+<body>
+<script src="/static/bower/all/1.0.0/all.min.js?v=20180302?v=2.00.20190701"></script>
+<script type="text/javascript">
+    var isIPV6 =  false ;
+    var portal = {"AuthIP":"","AuthIP6":"","ServiceIP":"zfw.buaa.edu.cn","DoubleStackPC":false,"DoubleStackMobile":false,"AuthMode":false,"CloseLogout":false,"MacAuth":false,"RedirectUrl":true,"OtherPCStack":"IPV4","OtherMobileStack":"IPV4","MsgApi":"new","PublicSuccessPages":true};
+    var lang = "zh-CN" || "zh-CN";
+</script>
+<script src="/static/js/srun.portal.lang.js?v=2.00.20190701"></script>
+<script src="/static/js/jquery.srun.portal_2019_0626.js?v=2.00.20190701"></script>
+<script src="/static/js/test/main.js?v=2.00.20190701"></script>
+
+<script src="/static/js/test/tools.js"></script>
+</body>
+</html>
